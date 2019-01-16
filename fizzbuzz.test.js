@@ -7,3 +7,7 @@ test('returns fizz instead of 3', () => {
 test('returns buzz instead of 5', () => {
   expect(fizzbuzz(5)).toBe('Buzz');
 });
+
+test('returns Fizzbuzz instead of 15', () => {
+  expect(fizzbuzz(15)).toBe('Fizzbuzz');
+});
